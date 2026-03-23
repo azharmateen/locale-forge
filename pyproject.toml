@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "locale-forge"
+version = "0.1.0"
+description = "i18n translation key manager: detect missing keys, validate formats, generate bundles"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.9"
+authors = [{name = "Locale Forge Contributors"}]
+keywords = ["i18n", "localization", "translation", "internationalization", "l10n"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Internationalization",
+]
+dependencies = [
+    "click>=8.0",
+    "rich>=13.0",
+    "pyyaml>=6.0",
+]
+
+[project.scripts]
+locale-forge = "locale_forge.cli:cli"
+
+[project.urls]
+Homepage = "https://github.com/locale-forge/locale-forge"
+Issues = "https://github.com/locale-forge/locale-forge/issues"
