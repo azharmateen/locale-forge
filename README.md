@@ -1,5 +1,8 @@
 # Locale Forge
 
+[![Built with Claude Code](https://img.shields.io/badge/Built%20with-Claude%20Code-blue?logo=anthropic&logoColor=white)](https://claude.ai/code)
+
+
 **Your i18n keys are a mess.** Some are in the code but not translated. Some are translated but no longer used. Some have broken placeholders. Locale Forge finds all of it.
 
 ```
